@@ -1,3 +1,7 @@
-Idea 1: Ride Sharing App
+Proposal 1: Ride Sharing App
+
+Recently, the Boston area has been experiencing severely increased prices when it comes to Uber/Lyft services, regardless of distance. It can become a real inconvenience when you need an Uber at 1 AM and due to the “demand” a 10 minute ride ends up costing more than $70. Our goal with this proposal is to mitigate the hassle involved with trying to figure out which ride sharing app offers the most competitive prices based on factors such as the time of day, activity/demand, and number of passengers. We hope to make it easier to figure out when to find the cheapest ride and which service offers the most budget-friendly prices.
 
 Idea 2: Weather Based Spotify Playlist Creator
+
+On any given day, it is almost a necessity to walk out of your apartment, headphones in ears, and put on a nice playlist for your commute to class, the gym, or anywhere else. However, if you’re anything like me, you only have one or two go-to playlists for any given situation, which is a bit of a bummer. Our goal with this project is to implement a playlist creator to suit the needs of any given situation, whether it be a sad and gloomy day, or a sunny and upbeat one, we’ve got you covered! We intend to use various music streaming platform’s APIs in order to construct the best AI-generated playlist in minutes, so you’re ready-to-go as soon as you step out those doors, or not!
