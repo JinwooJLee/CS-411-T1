@@ -12,16 +12,16 @@ def index(request):
 
 def forecast(request):
     base_url = "http://dataservice.accuweather.com/"
-    zipcode = "02215"
+    zipcode = request.POST["fname"]
     
     response = requests.get(f"{base_url}/locations/v1/postalcodes/search?apikey={weather}&q={zipcode}")
     if "Code" in response.json():
         #error handle
         return JsonResponse(response.json())
     elif len(response.json()) == 0:
-        return JsonResponse([], safe = False)
+        return JsonResponse({})
 
     key = response.json()[0]["Key"]
 
-    response = requests.get(f"{base_url}/forecasts/v1/hourly/1hour/{key}?apikey={weather}")
+    response = requests.get(f"{base_url}/forecasts/v1/hourly/1hour/{key}?apikey={weather}&details=true")
     return JsonResponse(response.json()[0])
