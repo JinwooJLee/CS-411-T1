@@ -1,0 +1,1 @@
+Our group decided to use Django since some of our group members have had previous experience with it and we all are familiar with python. We also decided to use Node since it is useful to be able to run back end javascript that executes the js code outside the browser. We chose it over React since React seems like it has a steeper learning curve. 
