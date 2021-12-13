@@ -6,3 +6,4 @@ TODO:
 - Create process to oauth to Spotify
 - Determine weather parameters that will generate new playlists/select songs
 - Generate playlist and add it to user's spotify if they have connected to it
+- REMOVE AND REFRESH SECRET KEYS
